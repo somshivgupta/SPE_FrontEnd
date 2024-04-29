@@ -1,0 +1,170 @@
+.App {
+  text-align: center;
+  
+}
+
+.Header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  background-color: #333;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.Heading {
+  margin-top: 1cm;
+  margin-bottom: 2.5cm;
+  left:0cm;
+}
+
+.Contain {
+  margin-left: 200px;
+}
+
+.WebAppName {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.Content {
+  margin-top: 20px;
+}
+
+.TestHeading {
+  font-size: 20px;
+}
+
+.Question {
+  margin-bottom: 20px;
+}
+
+.Question label {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.Note {
+  font-style: italic;
+}
+
+.Options {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Options button {
+  margin: 15px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: lightgreen;
+}
+
+button {
+  background-color: grey;
+  border-radius:10cm;
+  /* Add other button styles */
+}
+
+button.selected {
+  background-color: lightgreen;
+}
+
+.Navigation {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  padding: 0 10px;
+  background-color: #f2f2f2;
+}
+
+.Navigation a {
+  margin: 0 10px;
+  padding: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.Navigation a:hover {
+  background-color: #ddd;
+}
+
+.black-container {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  margin-left: 30%;
+  margin-right: 30%;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.white-text {
+  color: white;
+}
+
+.AppContainer {
+  text-align: left;
+  border-radius: 1cm;
+  border: 1px solid #ccc;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 0 auto;  
+  margin-top: 2%;
+  max-width: 400px; 
+}
+
+.HomePageButtons {
+  text-align: center;
+  border-radius: 1cm;
+  border: 1px solid #ccc;
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 0 auto;  
+  margin-top: 3%;
+  max-width: 400px;
+}
+
+.para {
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 3%;
+}
+
+.contain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 3%;
+  margin-left: 18%;
+  margin-right: 18%;
+}
+
+.side {
+  font-size: medium;
+  font-weight: 300;
+}

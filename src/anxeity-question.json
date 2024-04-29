@@ -1,0 +1,33 @@
+[
+    {
+      "id": "question1",
+      "question": "1. Feeling nervous, anxious, or on edge",
+      "options": ["NOT AT ALL", "SEVERAL DAYS", "MORE THAN HALF THE DAYS", "NEARLY EVERY DAY"]
+    },
+    {
+        "id": "question2",
+        "question": "2. Feeling nervous, anxious, or on edge",
+        "options": ["NOT AT ALL", "SEVERAL DAYS", "MORE THAN HALF THE DAYS", "NEARLY EVERY DAY"]
+    },
+    {
+        "id": "question3",
+        "question": "3. Feeling nervous, anxious, or on edge",
+        "options": ["NOT AT ALL", "SEVERAL DAYS", "MORE THAN HALF THE DAYS", "NEARLY EVERY DAY"]
+    },
+    {
+        "id": "question4",
+        "question": "4. Feeling nervous, anxious, or on edge",
+        "options": ["NOT AT ALL", "SEVERAL DAYS", "MORE THAN HALF THE DAYS", "NEARLY EVERY DAY"]
+    },
+    {
+        "id": "question5",
+        "question": "5. Little interest or pleasure in doing things",
+        "options": ["NOT AT ALL", "SEVERAL DAYS", "MORE THAN HALF THE DAYS", "NEARLY EVERY DAY"]
+    },
+    {
+        "id": "question6",
+        "question": "6. Little interest or pleasure in doing things",
+        "options": ["NOT AT ALL", "SEVERAL DAYS", "MORE THAN HALF THE DAYS", "NEARLY EVERY DAY"]
+    }
+]
+  

@@ -1,0 +1,27 @@
+[
+    {
+      "id": "question1",
+      "options": ["NOT AT ALL", "SEVERAL DAYS", "MORE THAN HALF THE DAYS", "NEARLY EVERY DAY"]
+    },
+    {
+        "id": "question2",
+        "options": ["NOT AT ALL", "SEVERAL DAYS", "MORE THAN HALF THE DAYS", "NEARLY EVERY DAY"]
+    },
+    {
+        "id": "question3",
+        "options": ["NOT AT ALL", "SEVERAL DAYS", "MORE THAN HALF THE DAYS", "NEARLY EVERY DAY"]
+    },
+    {
+        "id": "question4",
+        "options": ["NOT AT ALL", "SEVERAL DAYS", "MORE THAN HALF THE DAYS", "NEARLY EVERY DAY"]
+    },
+    {
+        "id": "question5",
+        "options": ["NOT AT ALL", "SEVERAL DAYS", "MORE THAN HALF THE DAYS", "NEARLY EVERY DAY"]
+    },
+    {
+        "id": "question6",
+        "options": ["NOT AT ALL", "SEVERAL DAYS", "MORE THAN HALF THE DAYS", "NEARLY EVERY DAY"]
+    }
+]
+  

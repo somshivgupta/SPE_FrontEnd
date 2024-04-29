@@ -1,0 +1,49 @@
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+  
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+  
+li {
+    display: inline;
+    margin-right: 10px;
+}
+  
+Link {
+    color: white;
+    text-decoration: none;
+}
+  
+Link:hover {
+    color: lightgray;
+}
+  
+  /* Component Styles */
+.Content {
+    margin-top: 20px;
+    padding: 20px;
+}
+  
+.TestHeading {
+    margin-bottom: 10px;
+}
+  
+.Question {
+    margin-bottom: 20px;
+}
+  
+.Options button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+  
+.Options button.selected {
+    background-color: #007bff;
+    color: white;
+}  
