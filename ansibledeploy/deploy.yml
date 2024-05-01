@@ -1,0 +1,10 @@
+---
+- name: Deploy Docker image and Kubernetes resources for spemajorf
+  hosts: localhost
+  remote_user: somg0703
+  become: false
+  tasks:
+    - name: Run Kubernetes Deployment files
+      shell: kubectl apply -f "{{ item }}" 
+      with_fileglob:
+        - ../kubernetes/*.yaml

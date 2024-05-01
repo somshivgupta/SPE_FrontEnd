@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: spemajorf-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: spemajorf
+  template:
+    metadata:
+      labels:
+        app: spemajorf
+    spec:
+      containers:
+        - name: spemajorf-container
+          image: somg0703/frontend
+          ports:
+            - containerPort: 3000

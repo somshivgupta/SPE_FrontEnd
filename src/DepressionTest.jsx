@@ -10,7 +10,7 @@ function DepressionTest() {
   const [showResults, setShowResults] = useState(false);
   const [allQuestionsAnswered, setAllQuestionsAnswered] = useState(false);
   const [data, setData] = useState([]);
-  const API_HOST="http://localhost:8080";
+  const API_HOST="http://localhost:8081";
 
   const options = ['NOT AT ALL', 'SEVERAL DAYS', 'MORE THAN HALF THE DAYS', 'NEARLY EVERY DAY'];
 
