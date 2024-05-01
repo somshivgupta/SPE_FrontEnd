@@ -22,7 +22,7 @@ pipeline {
 
         stage('Build React App') {
             steps {
-            
+                    sh 'node --version'
                     sh 'npm install'
                     sh 'npm run build'
                 
