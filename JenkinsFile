@@ -56,7 +56,6 @@ pipeline {
                     ansiblePlaybook(
                         playbook: 'ansibledeploy/deploy.yml',
                         inventory: 'ansibledeploy/inventory',
-                        sudoUser: 'aryanpatel'
                     )
                 }
             }
