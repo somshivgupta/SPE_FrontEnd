@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: spemajorf-service
+  name: frontend-service
 spec:
   selector:
-    app: spemajorf
+    app: frontend
   ports:
     - protocol: TCP
       port: 80
