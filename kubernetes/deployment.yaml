@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: frontend-container
-          image: somg0703/frontend
+          image: somg0703/frontend:v1
           ports:
             - containerPort: 3000
