@@ -1,43 +1,19 @@
----
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: frontend-deployment
-  namespace: front
+  name: front-deployment
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: frontend
+      app: front
   template:
     metadata:
       labels:
-        app: frontend
+        app: front
     spec:
       containers:
-        - name: frontend-container
-          image: somg0703/frontend
+        - name: front-container
+          image: somg0703/front
           ports:
-            - containerPort: 5173
-
----
-apiVersion: apps/v1
-kind: Deployment
-metadata:
-  name: backend-deployment
-  namespace: back
-spec:
-  replicas: 1
-  selector:
-    matchLabels:
-      app: backend
-  template:
-    metadata:
-      labels:
-        app: backend
-    spec:
-      containers:
-        - name: backend-container
-          image: somg0703/backend
-          ports:
-            - containerPort: 5000
+            - containerPort: 3000
