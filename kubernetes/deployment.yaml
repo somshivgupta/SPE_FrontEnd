@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: front-deployment
+  namespace: front
 spec:
   replicas: 1
   selector:
@@ -14,6 +15,7 @@ spec:
     spec:
       containers:
         - name: front-container
-          image: somg0703/front
+          image: somg0703/front:latest
           ports:
-            - containerPort: 3000
+            - containerPort: 3000
+              protocol: TCP
