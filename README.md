@@ -19,9 +19,13 @@ The Self Assessment Test App Frontend is a web application built using ReactJS. 
 The condition severity is determined based on the percentage of the score. The thresholds for Depression are as follows:
 
 Minimal Depression: 0-20%
+
 Mild Depression: 21-40%
+
 Moderate Depression: 41-60%
+
 Moderately Severe Depression: 61-80%
+
 Severe Depression: 81-100%
 
 
@@ -61,4 +65,5 @@ The application will be available at http://localhost:5173.
 
 ## Technology Stack
 Frontend: ReactJS, HTML, CSS, Docker
+
 HTTP Client: Axios for fetching questions from the backend
