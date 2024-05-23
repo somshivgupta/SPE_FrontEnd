@@ -3,7 +3,7 @@
 
 ## Overview
 
-The Self Assessment Test App Frontend is a web application built using ReactJS. This application allows users to take self-assessment tests for Depression, Anxiety, and ADHD. Upon completing the tests, users receive a score and a report indicating the severity of their condition, which can be emailed to them.
+The Self Assessment Test App Frontend is a web application built using ReactJS, HTML, CSS, Dockerfile. This application allows users to take self-assessment tests for Depression, Anxiety, and ADHD. Upon completing the tests, users receive a score and a report indicating the severity of their condition, which can be emailed to them.
 
 ## Features
 
@@ -18,15 +18,11 @@ The Self Assessment Test App Frontend is a web application built using ReactJS. 
 
 The condition severity is determined based on the percentage of the score. The thresholds for Depression are as follows:
 
-Minimal Depression: 0-20%
-
-Mild Depression: 21-40%
-
-Moderate Depression: 41-60%
-
-Moderately Severe Depression: 61-80%
-
-Severe Depression: 81-100%
+1. Minimal Depression: 0-20%
+2. Mild Depression: 21-40%
+3. Moderate Depression: 41-60%
+4. Moderately Severe Depression: 61-80%
+5. Severe Depression: 81-100%
 
 
 ## Installation
@@ -64,6 +60,6 @@ The application will be available at http://localhost:5173.
 
 
 ## Technology Stack
-Frontend: ReactJS, HTML, CSS, Docker
+Frontend: ReactJS, HTML, CSS, Dockerfile
 
 HTTP Client: Axios for fetching questions from the backend
