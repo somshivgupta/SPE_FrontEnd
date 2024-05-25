@@ -1,0 +1,77 @@
+# frontend-deployment.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: front-deployment
+  namespace: front
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: front
+  template:
+    metadata:
+      labels:
+        app: front
+    spec:
+      containers:
+        - name: front-container
+          image: somg0703/front:latest
+          ports:
+            - containerPort: 3000
+              protocol: TCP
+          env:
+            - name: BACKEND_URL
+              value: "http://backend-service.backend.svc.cluster.local:8082"
+
+---
+# frontend-service.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: front-service
+  namespace: front
+spec:
+  selector:
+    app: front
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 3000
+---
+# backend-deployment.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backend-deployment
+  namespace: backend
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: backend
+  template:
+    metadata:
+      labels:
+        app: backend
+    spec:
+      containers:
+        - name: backend-container
+          image: somg0703/backend
+          ports:
+            - containerPort: 8082
+---
+# backend-service.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: backend-service
+  namespace: backend
+spec:
+  selector:
+    app: backend
+  ports:
+    - protocol: TCP
+      port: 8082
+      targetPort: 8082
+  type: LoadBalancer
